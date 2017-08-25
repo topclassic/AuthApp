@@ -7,7 +7,7 @@ import {
 
 
 // CardSection is view detail for each Card
-const CardSecion = (props) => {
+const CardSection = (props) => {
 
     const {containerStyle} = styles
     return (
@@ -31,4 +31,4 @@ const styles = StyleSheet.create({
 });
 
 //make this component available to the app
-export {CardSecion};
+export {CardSection};
